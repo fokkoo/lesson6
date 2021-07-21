@@ -63,6 +63,5 @@ public class ExercisesFragment extends Fragment {
         Intent intent = new Intent();
         intent.setClass(getActivity(), ImageActivity.class);
     }
-    
 
 }
