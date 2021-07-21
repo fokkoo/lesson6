@@ -57,10 +57,7 @@ public class ExercisesFragment extends Fragment {
             linearLayout.addView(textView);
         }
     }
-// delite me
-// delite me
-// delite me
-// delite me
+
     void showImage(int index) {
         Intent intent = new Intent();
         intent.setClass(getActivity(), ImageActivity.class);
