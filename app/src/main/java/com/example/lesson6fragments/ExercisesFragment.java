@@ -58,6 +58,7 @@ public class ExercisesFragment extends Fragment {
         }
     }
 
+    
     void showImage(int index) {
         Intent intent = new Intent();
         intent.setClass(getActivity(), ImageActivity.class);
