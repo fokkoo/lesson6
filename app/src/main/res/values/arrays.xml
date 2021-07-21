@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="exercises">
+        <item> Deadlift </item>
+        <item> Squat </item>
+        <item> Bench press </item>
+
+    </string-array>
+
+    <string-array name="exercisesPhoto">
+        <item> @drawable/bench_press </item>
+        <item> @drawable/squat </item>
+        <item> @drawable/deadlift </item>
+
+    </string-array>
+
+
+
+</resources>
