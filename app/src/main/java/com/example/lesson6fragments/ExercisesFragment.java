@@ -16,6 +16,10 @@ import android.widget.TextView;
 
 public class ExercisesFragment extends Fragment {
 
+    public static final String ARM_PARAM_INDEX = "index";
+    public static final int DEF_INDEX = -1;
+
+    private int index;
 
     public ExercisesFragment() {
         // Required empty public constructor
@@ -58,11 +62,12 @@ public class ExercisesFragment extends Fragment {
     }
 
 
-    //hghfkj
-    //hghfkj
     void showImage(int index) {
         Intent intent = new Intent();
         intent.setClass(getActivity(), ImageActivity.class);
+        intent.putExtra(ExercisesFragment.ARM_PARAM_INDEX, index);
+        startActivity(intent);
+
     }
 
 

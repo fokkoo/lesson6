@@ -61,7 +61,7 @@ public class ImageFragment extends Fragment {
     private void initImage(View view) {
         ImageView imageView = view.findViewById(R.id.image);
         TypedArray images = getResources().obtainTypedArray(R.array.exercisesPhoto);
-        imageView.setImageResource(images.getResourceId(index,-1));
+        imageView.setImageResource(images.getResourceId(index, -1));
 
         images.recycle();
     }

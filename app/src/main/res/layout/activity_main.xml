@@ -10,6 +10,6 @@
         android:id="@+id/exercises"
         android:name="com.example.lesson6fragments.ExercisesFragment"
         android:layout_width="match_parent"
-        android:layout_height="match_parent"/>
+        android:layout_height="match_parent" />
 
 </FrameLayout>
