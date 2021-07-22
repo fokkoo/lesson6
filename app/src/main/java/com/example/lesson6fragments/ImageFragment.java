@@ -16,8 +16,8 @@ import android.widget.ImageView;
 public class ImageFragment extends Fragment {
 
 
-    private static final String ARG_PARAM_INDEX = "index";
-
+    public static final String ARG_PARAM_INDEX = "index";
+    public static final int DEF_INDEX = -1;
 
     private int index;
 
@@ -61,7 +61,7 @@ public class ImageFragment extends Fragment {
     private void initImage(View view) {
         ImageView imageView = view.findViewById(R.id.image);
         TypedArray images = getResources().obtainTypedArray(R.array.exercisesPhoto);
-        imageView.setImageResource(images.getResourceId(index, -1));
+        imageView.setImageResource(images.getResourceId(index, DEF_INDEX));
 
         images.recycle();
     }

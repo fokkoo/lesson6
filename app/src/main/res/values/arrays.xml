@@ -8,7 +8,7 @@
     </string-array>
 
     <string-array name="exercisesPhoto">
-        <item> @drawable/bench_press </item>
+        <item>@drawable/bench_press</item>
         <item> @drawable/squat </item>
         <item> @drawable/deadlift </item>
 

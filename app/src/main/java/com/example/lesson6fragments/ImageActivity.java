@@ -27,7 +27,7 @@ public class ImageActivity extends AppCompatActivity {
                     .beginTransaction()
                     .replace(R.id.image_contaner, fragment)
                     .commit();
-            // загрузка и выгрузка фрагмента
+
         }
     }
 
