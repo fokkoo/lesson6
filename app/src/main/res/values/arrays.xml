@@ -1,17 +1,25 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
     <string-array name="exercises">
-        <item> Deadlift </item>
-        <item> Squat </item>
-        <item> Bench press </item>
+        <item> bbenchpress </item>
+        <item> squat </item>
+        <item> deadlift </item>
+
+
 
     </string-array>
 
     <string-array name="exercisesPhoto">
-        <item>@drawable/bench_press</item>
+        <item>@drawable/benchpress</item>
         <item> @drawable/squat </item>
         <item> @drawable/deadlift </item>
+    </string-array>
 
+    <string-array name="exercisesText">
+
+        <item> bbenchpress is important </item>
+        <item> squat do every day </item>
+        <item> deadlift is hard! </item>
     </string-array>
 
 

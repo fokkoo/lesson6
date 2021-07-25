@@ -13,11 +13,10 @@ public class ImageActivity extends AppCompatActivity {
         setContentView(R.layout.activity_image);
 
         if (getResources().getConfiguration().orientation == Configuration.ORIENTATION_LANDSCAPE) {
-
-
             finish();
             return;
         }
+
         if (savedInstanceState == null) {
             // первый запуск
             ImageFragment fragment = new ImageFragment();

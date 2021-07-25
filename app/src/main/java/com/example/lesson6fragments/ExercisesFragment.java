@@ -16,11 +16,17 @@ import android.widget.TextView;
 
 public class ExercisesFragment extends Fragment {
 
-
+    public int finalIndex2;
 
 
     public ExercisesFragment() {
         // Required empty public constructor
+    }
+
+    @Override
+    public void onCreate(@Nullable Bundle savedInstanceState) {
+        super.onCreate(savedInstanceState);
+        setRetainInstance(true);  //fragment does not recreated whith activity
     }
 
     @Override
@@ -41,7 +47,7 @@ public class ExercisesFragment extends Fragment {
 
     private void intList(View view) {
 
-      //    LinearLayout linearLayout = view.findViewById(R.id.eserciser_conteiner);
+        //    LinearLayout linearLayout = view.findViewById(R.id.eserciser_conteiner);
         LinearLayout linearLayout = (LinearLayout) view;
 
         String[] exercises = getResources().getStringArray(R.array.exercises);
@@ -53,6 +59,8 @@ public class ExercisesFragment extends Fragment {
 
 
             final int finalIndex = i;
+            finalIndex2 = finalIndex;
+
             textView.setOnClickListener(v -> {
                 showImage(finalIndex);
 
@@ -68,6 +76,7 @@ public class ExercisesFragment extends Fragment {
         intent.setClass(getActivity(), ImageActivity.class);
         intent.putExtra(ImageFragment.ARG_PARAM_INDEX, index);
         startActivity(intent);
+
 
     }
 
