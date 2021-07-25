@@ -27,6 +27,17 @@ public class ImageActivity extends AppCompatActivity {
                     .replace(R.id.image_contaner, fragment)
                     .commit();
 
+
+            /*
+            ExersicesTextFragment exersicesTextFragment = new ExersicesTextFragment();
+            exersicesTextFragment.setArguments(getIntent().getExtras());
+
+            getSupportFragmentManager()
+                    .beginTransaction()
+                    .replace(R.id.image_contaner, exersicesTextFragment)
+                    .commit();
+                    */
+
         }
     }
 

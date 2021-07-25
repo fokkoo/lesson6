@@ -11,13 +11,28 @@
     <!-- Фрагмент выбора упражнения-->
     <fragment
         android:name="com.example.lesson6fragments.ExercisesFragment"
+        android:id="@+id/exercises_landscape"
         android:layout_weight="1"
-        android:layout_width="1px"
+        android:layout_width="0px"
         android:layout_height="match_parent"
+
     />
 
-    <!-- Фрагмент описания упражнения-->
 
     <!-- Фрагмент картинки упражнения-->
-
+    <FrameLayout
+        android:id="@+id/coat_of_arms"
+        android:layout_weight="1"
+        android:layout_width="0px"
+        android:layout_height="match_parent"
+        android:background="?android:attr/detailsElementBackground"
+        />
+    <!-- Фрагмент описания упражнения-->
+    <FrameLayout
+        android:id="@+id/text_exercis_framelayout_mane"
+     android:layout_weight="1"
+     android:layout_width="0px"
+     android:layout_height="match_parent"
+     android:background="@color/teal_200"
+     />
 </LinearLayout>

@@ -1,7 +1,5 @@
 package com.example.lesson6fragments;
 
-import android.annotation.SuppressLint;
-import android.content.Intent;
 import android.content.res.TypedArray;
 import android.os.Bundle;
 
@@ -17,8 +15,7 @@ import android.widget.LinearLayout;
 import android.widget.TextView;
 
 
-public class ImageFragment extends Fragment {
-
+public class ExersicesTextFragment extends Fragment {
 
     public static final String ARG_PARAM_INDEX = "index";
     public static final int DEF_INDEX = -1;
@@ -26,19 +23,18 @@ public class ImageFragment extends Fragment {
     private int index;
 
 
-    public ImageFragment() {
+    public ExersicesTextFragment() {
         // Required empty public constructor
     }
 
-
-    public static ImageFragment newInstance(int index) {
+ /*   public static ImageFragment newInstance(int index) {
         ImageFragment fragment = new ImageFragment();
         Bundle args = new Bundle();
         args.putInt(ARG_PARAM_INDEX, index);
 
         fragment.setArguments(args);
         return fragment;
-    }
+    } */
 
     @Override
     public void onCreate(Bundle savedInstanceState) {
@@ -61,7 +57,7 @@ public class ImageFragment extends Fragment {
     public void onViewCreated(@NonNull View view, @Nullable Bundle savedInstanceState) {
         super.onViewCreated(view, savedInstanceState);
 
-          initImage(view);
+        //  initImage(view);
 
         intList(view);
     }
@@ -75,7 +71,7 @@ public class ImageFragment extends Fragment {
 
 
         TextView textView2 = new TextView(getContext());
-        textView2.setText(exercises2[index]);
+        textView2.setText(exercises2[2]);
         textView2.setTextSize(30);
 
 
@@ -92,6 +88,5 @@ public class ImageFragment extends Fragment {
         images.recycle();
 
     }
-
 
 }
