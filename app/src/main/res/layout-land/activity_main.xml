@@ -10,11 +10,12 @@
 
     <!-- Фрагмент выбора упражнения-->
     <fragment
+        android:name="com.example.lesson6fragments.ExercisesFragment"
         android:layout_weight="1"
         android:layout_width="1px"
         android:layout_height="match_parent"
     />
-    
+
     <!-- Фрагмент описания упражнения-->
 
     <!-- Фрагмент картинки упражнения-->
