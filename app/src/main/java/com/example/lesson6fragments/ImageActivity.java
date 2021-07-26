@@ -18,7 +18,7 @@ public class ImageActivity extends AppCompatActivity {
         }
 
         if (savedInstanceState == null) {
-            // первый запуск
+            // первый запуск приложения в телефоне
             ImageFragment fragment = new ImageFragment();
             fragment.setArguments(getIntent().getExtras());
 
