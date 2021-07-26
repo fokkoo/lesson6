@@ -73,7 +73,7 @@ public class ExercisesFragment extends Fragment {
 
             textView.setOnClickListener(v -> {
                 showImage(finalIndex);
-                showText(finalIndex);
+                //  showText(finalIndex);
 
             });
 
@@ -104,7 +104,7 @@ public class ExercisesFragment extends Fragment {
     void showTextPort(int index) {
         Intent intent = new Intent();
         intent.setClass(getActivity(), ImageActivity.class);
-        intent.putExtra(ExersicesTextFragment.ARG_PARAM_INDEX, index);
+        intent.putExtra(ImageFragment.ARG_PARAM_INDEX, index);
         startActivity(intent);
 
 
@@ -130,16 +130,6 @@ public class ExercisesFragment extends Fragment {
         //.setTransition(FragmentTransaction.TRANSIT_FRAGMENT_FADE) добавление анимации перехода
 
 
-
-/*
-        requireActivity().getSupportFragmentManager()
-                .beginTransaction().replace(R.id.text_exercis_framelayout_mane,fragment)
-                .setTransition(FragmentTransaction.TRANSIT_FRAGMENT_FADE)
-                .commit();
-        //.setTransition(FragmentTransaction.TRANSIT_FRAGMENT_FADE) добавление анимации перехода
-
-
- */
     }
 
 

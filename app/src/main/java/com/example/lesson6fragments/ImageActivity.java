@@ -28,16 +28,6 @@ public class ImageActivity extends AppCompatActivity {
                     .commit();
 
 
-            /*
-            ExersicesTextFragment exersicesTextFragment = new ExersicesTextFragment();
-            exersicesTextFragment.setArguments(getIntent().getExtras());
-
-            getSupportFragmentManager()
-                    .beginTransaction()
-                    .replace(R.id.image_contaner, exersicesTextFragment)
-                    .commit();
-                    */
-
         }
     }
 

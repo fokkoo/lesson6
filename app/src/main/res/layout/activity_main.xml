@@ -17,13 +17,5 @@
         android:layout_weight="1"
         android:background="?android:attr/detailsElementBackground" />
 
-    <!-- Фрагмент выбора упражнения
-    <fragment
-        android:id="@+id/exercises_text"
-        android:name="com.example.lesson6fragments.ExersicesTextFragment"
-        android:layout_width="match_parent"
-        android:layout_height="301dp"
-        android:layout_weight="1"
-        android:background="@color/teal_200" />
-        -->
+
 </LinearLayout>
