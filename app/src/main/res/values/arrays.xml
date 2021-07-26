@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
     <string-array name="exercises">
-        <item> bbenchpress </item>
-        <item> squat </item>
-        <item> deadlift </item>
+        <item> Bench press </item>
+        <item> Squat </item>
+        <item> Deadlift </item>
 
 
 
@@ -17,9 +17,9 @@
 
     <string-array name="exercisesText">
 
-        <item> bbenchpress is important </item>
-        <item> squat do every day </item>
-        <item> deadlift is hard! </item>
+        <item> 1. Lie flat on your back on a bench. 2 Grip the bar with hands 3. Bring the bar slowly down. Push up as you breathe out. </item>
+        <item> 1. Stand straight. 2. Lower down. 3. Straighten your legs to lift back. </item>
+        <item> 1. Bend over and grab the bar. 2. Lift your chest up. 3. Stand up with the weight.  </item>
     </string-array>
 
 

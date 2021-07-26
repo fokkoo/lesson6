@@ -93,7 +93,7 @@ public class ExercisesFragment extends Fragment {
         ImageFragment fragment = ImageFragment.newInstance(index);
 
         requireActivity().getSupportFragmentManager()
-                .beginTransaction().replace(R.id.text_exercis_framelayout_mane, fragment)
+                .beginTransaction().replace(R.id.coat_of_arms, fragment)
                 .setTransition(FragmentTransaction.TRANSIT_FRAGMENT_FADE)
                 .commit();
         //.setTransition(FragmentTransaction.TRANSIT_FRAGMENT_FADE) добавление анимации перехода

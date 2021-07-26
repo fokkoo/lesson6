@@ -9,12 +9,12 @@
     android:orientation="vertical">
 
 
-       <ImageView
-           android:id="@+id/image"
-           android:layout_width="126dp"
-           android:layout_height="170dp"
-           android:scaleType="centerInside"
-           tools:src="@drawable/benchpress" />
+    <ImageView
+        android:id="@+id/image"
+        android:layout_width="match_parent"
+        android:layout_height="170dp"
+        android:scaleType="centerInside"
+        tools:src="@drawable/benchpress" />
 
 
 

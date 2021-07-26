@@ -59,7 +59,7 @@ public class ExersicesTextFragment extends Fragment {
 
         //  initImage(view);
 
-        intList(view);
+      //  intList(view);
     }
 
     private void intList(View view) {
