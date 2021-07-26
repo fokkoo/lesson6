@@ -30,7 +30,7 @@ public class ExercisesFragment extends Fragment {
     @Override
     public void onCreate(@Nullable Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        setRetainInstance(true);  //fragment does not recreated whith activity
+        setRetainInstance(true);  //fragment does not recreated with activity
     }
 
     @Override
@@ -110,7 +110,6 @@ public class ExercisesFragment extends Fragment {
 
     }
 
-
     void showImage(int index) {
         if (isLand) {
             showImageLand(index);
@@ -118,7 +117,6 @@ public class ExercisesFragment extends Fragment {
             showImagePort(index);
         }
     }
-
 
     void showImageLand(int index) {
         ImageFragment fragment = ImageFragment.newInstance(index);
@@ -141,6 +139,4 @@ public class ExercisesFragment extends Fragment {
 
 
     }
-
-
 }

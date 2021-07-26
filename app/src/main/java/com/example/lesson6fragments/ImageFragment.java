@@ -92,6 +92,4 @@ public class ImageFragment extends Fragment {
         images.recycle();
 
     }
-
-
 }

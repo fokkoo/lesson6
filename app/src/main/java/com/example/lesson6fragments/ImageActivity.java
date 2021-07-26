@@ -27,7 +27,6 @@ public class ImageActivity extends AppCompatActivity {
                     .replace(R.id.image_contaner, fragment)
                     .commit();
 
-
         }
     }
 
