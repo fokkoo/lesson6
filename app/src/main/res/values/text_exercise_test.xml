@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+
+<resources>
+
+    <string name="benchpress">benchpress</string>
+    <string name="squat"> squat</string>
+    <string name="deadlift">deadlift</string>
+
+
+</resources>
