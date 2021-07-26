@@ -96,7 +96,7 @@ public class ExercisesFragment extends Fragment {
                 .beginTransaction().replace(R.id.coat_of_arms, fragment)
                 .setTransition(FragmentTransaction.TRANSIT_FRAGMENT_FADE)
                 .commit();
-        //.setTransition(FragmentTransaction.TRANSIT_FRAGMENT_FADE) добавление анимации перехода плавного
+        //.setTransition(FragmentTransaction.TRANSIT_FRAGMENT_FADE) добавление анимации перехода плавного моего текста и картинки
 
     }
 
