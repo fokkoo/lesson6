@@ -1,19 +1,26 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
     <string-array name="exercises">
-        <item> Deadlift </item>
-        <item> Squat </item>
         <item> Bench press </item>
+        <item> Squat </item>
+        <item> Deadlift </item>
+
+
 
     </string-array>
 
     <string-array name="exercisesPhoto">
-        <item> @drawable/bench_press </item>
+        <item>@drawable/benchpress</item>
         <item> @drawable/squat </item>
         <item> @drawable/deadlift </item>
-
     </string-array>
 
+    <string-array name="exercisesText">
+
+        <item> 1. Lie flat on your back on a bench. 2 Grip the bar with hands 3. Bring the bar slowly down. Push up as you breathe out. </item>
+        <item> 1. Stand straight. 2. Lower down. 3. Straighten your legs to lift back. </item>
+        <item> 1. Bend over and grab the bar. 2. Lift your chest up. 3. Stand up with the weight.  </item>
+    </string-array>
 
 
 </resources>

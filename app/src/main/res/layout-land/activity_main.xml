@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<!-- Это специальный макет для альбомной ориентации-->
+<LinearLayout
+
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="horizontal">
+
+    <!-- Фрагмент выбора упражнения-->
+    <fragment
+        android:id="@+id/exercises_landscape"
+        android:name="com.example.lesson6fragments.ExercisesFragment"
+        android:layout_width="0px"
+        android:layout_height="match_parent"
+        android:layout_weight="1"
+
+        />
+
+
+    <!-- Фрагмент картинки упражнения-->
+    <FrameLayout
+        android:id="@+id/coat_of_arms"
+        android:layout_width="0px"
+        android:layout_height="match_parent"
+        android:layout_weight="1"
+        android:background="?android:attr/detailsElementBackground" />
+
+</LinearLayout>
